@@ -9,3 +9,22 @@
 	object-fit: cover;
 	object-position: top;
 }
+
+.hero__content {
+	width: 100vw;
+	margin-top: 4rem;
+	padding-inline: 5px;
+	display: flex;
+}
+
+.hero__text {
+	width: 65vw;
+}
+
+.hero__text p {
+	font-family: var(--ff-lato-sans);
+	font-size: 4rem;
+	color: var(--primary-color);
+	line-height: 1;
+	font-weight: 400;
+}
