@@ -11,7 +11,7 @@
 }
 
 .hero__content {
-	width: 100vw;
+	width: 95vw;
 	margin-top: 4rem;
 	padding-inline: 5px;
 	display: flex;
@@ -23,7 +23,7 @@
 
 .hero__text p {
 	font-family: var(--ff-lato-sans);
-	font-size: 4rem;
+	font-size: clamp(3rem, 2vw + 2.5rem, 6rem);
 	color: var(--primary-color);
 	line-height: 1;
 	font-weight: 400;
