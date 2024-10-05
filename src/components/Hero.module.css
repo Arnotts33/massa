@@ -15,10 +15,13 @@
 	margin-top: 4rem;
 	padding-inline: 5px;
 	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* gap: 10rem; */
 }
 
 .hero__text {
-	width: 65vw;
+	width: 75vw;
 }
 
 .hero__text p {
@@ -27,4 +30,32 @@
 	color: var(--primary-color);
 	line-height: 1;
 	font-weight: 400;
+}
+
+.poisChichesFlex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	gap: 5rem;
+}
+
+.hero__content img {
+	object-fit: contain;
+}
+
+.hero__content img:nth-child(1) {
+	width: 150px;
+	transform: rotate(10deg);
+}
+
+.hero__content img:nth-child(2) {
+	width: 150px;
+	transform: rotate(-15deg);
+}
+
+.hero__content img:nth-child(3) {
+	width: 300px;
+	height: 300px;
+	margin-bottom: -5rem;
 }

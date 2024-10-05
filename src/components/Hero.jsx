@@ -21,6 +21,20 @@ function Hero() {
 						welcoming, urban atmosphere.
 					</p>
 				</div>
+				<div className={styles.poisChichesFlex}>
+					<img
+						src="../../public/images/Pois chiches.png"
+						alt="pois chiches"
+					/>
+					<img
+						src="../../public/images/Pois chiches.png"
+						alt="pois chiches"
+					/>
+					<img
+						src="../../public/images/Pois chiches 2.png"
+						alt="pois chiches"
+					/>
+				</div>
 			</div>
 		</section>
 	);
