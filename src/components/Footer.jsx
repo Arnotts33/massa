@@ -14,7 +14,7 @@ function Footer() {
 						<path
 							id="a"
 							data-color="fill"
-							fill="#3F6C51"
+							fill="#09583e"
 							d="M50 0C22 0 0 22 0 50c28 0 50 22 50 50 0-28 22-50 50-50 0-28-22-50-50-50z"
 						></path>
 					</pattern>
@@ -37,7 +37,7 @@ function Footer() {
 					</ul>
 				</div>
 				<div className={styles.footer__buttons}>
-					<button>Order on Deliveroo</button>
+					<button>Order</button>
 					<button>Directions</button>
 				</div>
 				<img src="../../public/images/MASSA (1).svg" alt="" />
