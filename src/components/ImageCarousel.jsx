@@ -1,5 +1,6 @@
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper/modules";
+import { Navigation, Autoplay, EffectCoverflow } from "swiper/modules";
 import styles from "./ImageCarousel.module.css";
 
 import "swiper/css";
@@ -20,18 +21,42 @@ function ImageCarousel() {
 	return (
 		<section className={styles.carouselContainer}>
 			<Swiper
-				modules={[Navigation, Autoplay]}
-				spaceBetween={30}
-				slidesPerView={3}
+				modules={[Navigation, Autoplay, EffectCoverflow]}
+				grabCursor={true}
+				lazy={true}
+				spaceBetween={40}
+				slidesPerView={2}
 				centeredSlides={true}
 				loop={true}
 				autoplay={{ delay: 3000, disableOnInteraction: false }}
-				navigation
+				// navigation
 				className={styles.mySwiper}
+				breakpoints={{
+					375: {
+						slidesPerView: 1,
+						spaceBetween: 20,
+					},
+					640: {
+						slidesPerView: 2,
+						spaceBetween: 20,
+					},
+					768: {
+						slidesPerView: 2,
+						spaceBetween: 40,
+					},
+					1920: {
+						slidesPerView: 4,
+						spaceBetween: 40,
+					},
+				}}
 			>
 				{images.map((image, index) => (
 					<SwiperSlide key={index}>
-						<img src={image} alt={`Slide ${index}`} />
+						<img
+							src={image}
+							alt={`Slide ${index}`}
+							loading="lazy"
+						/>
 					</SwiperSlide>
 				))}
 			</Swiper>
