@@ -1,5 +1,5 @@
-import React from "react";
 import "./App.css";
+import Footer from "./components/Footer";
 
 import Hero from "./components/Hero";
 import ImageCarousel from "./components/ImageCarousel";
@@ -13,6 +13,7 @@ function App() {
 			<Hero />
 			<ImageCarousel />
 			<MassaStory />
+			<Footer />
 		</>
 	);
 }
