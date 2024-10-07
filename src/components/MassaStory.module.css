@@ -1,7 +1,6 @@
 .storySection {
 	margin-top: 10rem;
-	margin-left: 5rem;
-	margin-right: 2rem;
+	margin-inline: 5rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -16,6 +15,19 @@
 	border-radius: 1rem;
 	transform: rotate(-3deg);
 	left: 19rem;
+}
+
+@media (max-width: 768px) {
+	.storySection {
+		margin-top: 3rem;
+		margin-inline: 2rem;
+		flex-direction: column;
+		gap: 4rem;
+	}
+
+	.storySection img {
+		width: 100%;
+	}
 }
 
 .titles {
