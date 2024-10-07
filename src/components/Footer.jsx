@@ -40,7 +40,10 @@ function Footer() {
 					<button>Order</button>
 					<button>Directions</button>
 				</div>
-				<img src="../../public/images/MASSA (1).svg" alt="" />
+				<img
+					src="/images/massa-footer-logo.svg"
+					alt="massa footer logo"
+				/>
 			</div>
 		</footer>
 	);
