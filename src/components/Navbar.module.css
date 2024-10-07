@@ -1,8 +1,8 @@
 .nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	overflow: hidden;
-	padding-inline: 1rem;
+	padding-inline: 2rem;
 }
 
 .logo {

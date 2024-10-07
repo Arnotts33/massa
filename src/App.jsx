@@ -1,19 +1,19 @@
 import "./App.css";
-import Footer from "./components/Footer";
-
-import Hero from "./components/Hero";
-import ImageCarousel from "./components/ImageCarousel";
-import MassaStory from "./components/MassaStory";
-import Navbar from "./components/Navbar";
+import { Routes, Route } from "react-router-dom";
+import Menu from "./components/pages/Menu";
+import Story from "./components/pages/Story";
+import Contact from "./components/pages/Contact";
+import Home from "./components/pages/Home";
 
 function App() {
 	return (
 		<>
-			<Navbar />
-			<Hero />
-			<ImageCarousel />
-			<MassaStory />
-			<Footer />
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/menu" element={<Menu />} />
+				<Route path="/story" element={<Story />} />
+				<Route path="/contact" element={<Contact />} />
+			</Routes>
 		</>
 	);
 }
