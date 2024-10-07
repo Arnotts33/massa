@@ -5,7 +5,7 @@ function Hero() {
 		<section className={styles.hero}>
 			<div className={styles.hero__image}>
 				<img
-					src="src\assets\images\massa-vitrine.jpg"
+					src="../../public/images/massa-vitrine.jpg"
 					alt="massa fridge"
 				/>
 			</div>
@@ -23,15 +23,15 @@ function Hero() {
 				</div>
 				<div className={styles.poisChichesFlex}>
 					<img
-						src="../../public/images/Pois chiches.png"
+						src="../../public/images/pois-chiches2.png"
 						alt="pois chiches"
 					/>
 					<img
-						src="../../public/images/Pois chiches.png"
+						src="../../public/images/pois-chiches2.png"
 						alt="pois chiches"
 					/>
 					<img
-						src="../../public/images/Pois chiches 2.png"
+						src="../../public/images/pois-chiches1.png"
 						alt="pois chiches"
 					/>
 				</div>

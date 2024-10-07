@@ -14,7 +14,7 @@ function ImageCarousel() {
 		"../../public/images/massa-frites-portrait.jpg",
 		"../../public/images/massa-pita-a-cuire-paysage.jpg",
 		"../../public/images/massa-pita-portrait.jpg",
-		"../../public/images/Massa Boris.jpeg",
+		"../../public/images/massa-boris.jpeg",
 	];
 
 	return (
