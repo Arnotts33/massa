@@ -24,25 +24,31 @@
 	width: 65vw;
 }
 
+.hero__text p {
+	width: 100%;
+	font-family: var(--ff-lato-sans);
+	font-size: clamp(1.5rem, 5vw, 6rem);
+	color: var(--primary-color);
+	line-height: 1;
+	font-weight: 400;
+}
+
 @media (max-width: 768px) {
 	.hero {
 		margin: 0 1rem;
 	}
+
+	.hero__text {
+		width: 100%;
+	}
+
 	.hero__content {
 		flex-direction: column;
+		margin-top: 2rem;
 		gap: 2rem;
 		width: 100%;
 		align-items: flex-start;
 	}
-}
-
-.hero__text p {
-	width: 100%;
-	font-family: var(--ff-lato-sans);
-	font-size: clamp(2rem, 5vw, 6rem);
-	color: var(--primary-color);
-	line-height: 1;
-	font-weight: 400;
 }
 
 .poisChichesFlex {
@@ -73,20 +79,3 @@
 	aspect-ratio: 1;
 	margin-bottom: -5rem;
 }
-
-/* @media (max-width: 1200px) {
-	.hero__content img:nth-child(1) {
-		width: 100px;
-		transform: rotate(10deg);
-	}
-
-	.hero__content img:nth-child(2) {
-		width: 100px;
-		transform: rotate(-15deg);
-	}
-
-	.hero__content img:nth-child(3) {
-		width: 200px;
-		height: 200px;
-	}
-} */
