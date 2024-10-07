@@ -1,25 +1,25 @@
 import styles from "./Navbar.module.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
 	return (
 		<header>
 			<nav className={styles.nav}>
 				<div className="header__logo">
-					<Link className={styles.logo} to="/">
+					<NavLink className={styles.logo} to="/">
 						Massa
-					</Link>
+					</NavLink>
 				</div>
 
 				<ul className={styles.nav__menu}>
 					<li>
-						<Link to="/story">Story</Link>
+						<NavLink to="/story">Story</NavLink>
 					</li>
 					<li>
-						<Link to="/menu">Menu</Link>
+						<NavLink to="/menu">Menu</NavLink>
 					</li>
 					<li className={styles.contact}>
-						<Link to="/contact">Contact</Link>
+						<NavLink to="/contact">Contact</NavLink>
 					</li>
 				</ul>
 			</nav>

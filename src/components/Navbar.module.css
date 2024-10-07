@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content: space-between;
 	overflow: hidden;
+	align-items: center;
 	padding-inline: 2rem;
 }
 
@@ -36,6 +37,7 @@
 	padding: 16px 32px;
 	color: var(--primary-color);
 	transition: all 0.2s ease-out;
+	display: block;
 }
 
 .nav__menu li:hover {

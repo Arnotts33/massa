@@ -1,15 +1,14 @@
 import Footer from "../Footer";
 import Navbar from "../Navbar";
+import styles from "./Contact.module.css";
 
 function Contact() {
 	return (
 		<>
 			<Navbar />
-			<div>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-				molestiae, eaque officia tempore consectetur saepe quibusdam
-				consequuntur cupiditate quas dolor? Corrupti velit veritatis,
-				amet nostrum explicabo sed suscipit possimus non.
+			<div className={styles.contactSection}>
+				<h1>En Construction</h1>
+				<img src="/images/avatar-heart.svg" alt="avatar" />
 			</div>
 			<Footer />
 		</>
