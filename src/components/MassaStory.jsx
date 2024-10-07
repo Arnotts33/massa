@@ -5,7 +5,7 @@ function MassaStory() {
 		<section className={styles.storySection}>
 			<img
 				className={styles.hummusImage}
-				src="/public/images/massa-hummus-portrait.jpg"
+				src="/images/massa-hummus-portrait.jpg"
 				alt="hummus"
 			/>
 			<div className={styles.titles}>

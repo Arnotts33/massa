@@ -4,10 +4,7 @@ function Hero() {
 	return (
 		<section className={styles.hero}>
 			<div className={styles.hero__image}>
-				<img
-					src="../../public/images/massa-vitrine.jpg"
-					alt="massa fridge"
-				/>
+				<img src="/images/massa-vitrine.jpg" alt="massa fridge" />
 			</div>
 
 			<div className={styles.hero__content}>
@@ -22,18 +19,9 @@ function Hero() {
 					</p>
 				</div>
 				<div className={styles.poisChichesFlex}>
-					<img
-						src="../../public/images/pois-chiches2.png"
-						alt="pois chiches"
-					/>
-					<img
-						src="../../public/images/pois-chiches2.png"
-						alt="pois chiches"
-					/>
-					<img
-						src="../../public/images/pois-chiches1.png"
-						alt="pois chiches"
-					/>
+					<img src="/images/pois-chiches2.png" alt="pois chiches" />
+					<img src="/images/pois-chiches2.png" alt="pois chiches" />
+					<img src="/images/pois-chiches1.png" alt="pois chiches" />
 				</div>
 			</div>
 		</section>

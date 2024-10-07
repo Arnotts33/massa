@@ -9,12 +9,12 @@ import "swiper/swiper-bundle.css";
 
 function ImageCarousel() {
 	const images = [
-		"../../public/images/massa-brioche-portrait.jpg",
-		"../../public/images/massa-falafels-paysage.jpg",
-		"../../public/images/massa-frites-portrait.jpg",
-		"../../public/images/massa-pita-a-cuire-paysage.jpg",
-		"../../public/images/massa-pita-portrait.jpg",
-		"../../public/images/massa-boris.jpeg",
+		"/images/massa-brioche-portrait.jpg",
+		"/images/massa-falafels-paysage.jpg",
+		"/images/massa-frites-portrait.jpg",
+		"/images/massa-pita-a-cuire-paysage.jpg",
+		"/images/massa-pita-portrait.jpg",
+		"/images/massa-boris.jpeg",
 	];
 
 	return (
