@@ -31,7 +31,7 @@ function ImageCarousel() {
 				// navigation
 				className={styles.mySwiper}
 				breakpoints={{
-					375: {
+					320: {
 						slidesPerView: 1,
 						spaceBetween: 20,
 					},
