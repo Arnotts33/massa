@@ -8,7 +8,11 @@ function Story() {
 			<Navbar />
 			<div className={styles.storySection}>
 				<h1>En Construction</h1>
-				<img src="/images/massa-avatar.png" alt="avatar" />
+				<img
+					loading="lazy"
+					src="/images/massa-avatar.png"
+					alt="avatar"
+				/>
 			</div>
 			<Footer />
 		</>

@@ -7,14 +7,12 @@ import Home from "./components/pages/Home";
 
 function App() {
 	return (
-		<>
-			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="/menu" element={<Menu />} />
-				<Route path="/story" element={<Story />} />
-				<Route path="/contact" element={<Contact />} />
-			</Routes>
-		</>
+		<Routes>
+			<Route path="/" element={<Home />} />
+			<Route path="/menu" element={<Menu />} />
+			<Route path="/story" element={<Story />} />
+			<Route path="/contact" element={<Contact />} />
+		</Routes>
 	);
 }
 

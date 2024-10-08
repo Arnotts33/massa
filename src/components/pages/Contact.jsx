@@ -8,7 +8,11 @@ function Contact() {
 			<Navbar />
 			<div className={styles.contactSection}>
 				<h1>En Construction</h1>
-				<img src="/images/avatar-heart.svg" alt="avatar" />
+				<img
+					loading="lazy"
+					src="/images/avatar-heart.svg"
+					alt="avatar"
+				/>
 			</div>
 			<Footer />
 		</>
