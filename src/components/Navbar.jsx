@@ -39,15 +39,15 @@ function Navbar() {
 
 				<div className={toggle ? styles.flex : styles.hidden}>
 					<ul className={styles.nav__toggle_menu_list}>
-						<li>
-							<NavLink to="/story">Story</NavLink>
-						</li>
-						<li>
-							<NavLink to="/menu">Menu</NavLink>
-						</li>
-						<li>
-							<NavLink to="/contact">Contact</NavLink>
-						</li>
+						<NavLink to="/story" className={styles.link}>
+							<li>Story</li>
+						</NavLink>
+						<NavLink to="/menu" className={styles.link}>
+							<li>Menu</li>
+						</NavLink>
+						<NavLink to="/contact" className={styles.link}>
+							<li>Contact</li>
+						</NavLink>
 					</ul>
 				</div>
 			</nav>

@@ -97,7 +97,7 @@
 	padding: 2rem;
 }
 
-.nav__toggle_menu_list li {
+.link {
 	background-color: #fff;
 	border: none;
 	border-radius: 2rem;
@@ -108,19 +108,17 @@
 	text-transform: uppercase;
 	transition: all 0.2s ease-out;
 	display: block;
-}
 
-.nav__toggle_menu_list li:hover {
-	cursor: pointer;
-	transform: translateY(-4px);
-	background-color: hsla(120, 100%, 84%, 0.685);
-}
-
-.nav__toggle_menu_list li a {
 	font-family: var(--ff-yanone-sans);
 	font-weight: 700;
 	color: var(--primary-color);
 	font-size: clamp(1.5rem, 6vw, 2rem);
+}
+
+.link:hover {
+	cursor: pointer;
+	transform: translateY(-4px);
+	background-color: hsla(120, 100%, 84%, 0.685);
 }
 
 .hidden {
