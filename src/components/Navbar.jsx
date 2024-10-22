@@ -18,7 +18,7 @@ function Navbar() {
 
 				<ul className={styles.nav__menu}>
 					<li>
-						<NavLink to="/story">Story</NavLink>
+						<NavLink to="/story">About</NavLink>
 					</li>
 					<li>
 						<NavLink to="/menu">Menu</NavLink>
