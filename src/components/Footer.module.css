@@ -2,16 +2,6 @@
 	margin-top: 10rem;
 	display: flex;
 	flex-direction: column;
-	position: relative;
-	height: 90vh;
-	clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%);
-}
-
-.inner {
-	position: fixed;
-	height: 90vh;
-	width: 100%;
-	bottom: 0;
 }
 
 .footer svg {
