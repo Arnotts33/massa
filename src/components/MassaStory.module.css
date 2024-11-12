@@ -36,7 +36,7 @@
 	gap: 1rem;
 }
 
-h3 {
+.titles h3 {
 	font-family: var(--ff-yanone-sans);
 	font-size: clamp(2rem, 2vw + 2rem, 3.5rem);
 	color: var(--primary-color);
@@ -44,7 +44,7 @@ h3 {
 	text-transform: uppercase;
 }
 
-h2 {
+.titles h2 {
 	font-family: var(--ff-yanone-sans);
 	font-size: clamp(4rem, 2vw + 8rem, 14rem);
 	color: var(--primary-color);
@@ -52,13 +52,13 @@ h2 {
 	text-transform: uppercase;
 }
 
-p {
+.titles p {
 	font-family: var(--ff-lato-sans);
 	color: var(--primary-color);
 	font-size: clamp(1rem, 3vw, 2.5rem);
 }
 
-button {
+.titles__btn {
 	margin-top: 2rem;
 	text-transform: uppercase;
 	font-size: 1.25rem;
@@ -72,7 +72,7 @@ button {
 	transition: all 0.2s ease-out;
 }
 
-button:hover {
+.titles__btn:hover {
 	cursor: pointer;
 	transform: translateY(-4px);
 }

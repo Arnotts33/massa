@@ -19,7 +19,7 @@ function MassaStory() {
 					creating food that brings people together. More than just a
 					restaurant, it’s a celebration of tradition and friendship.
 				</p>
-				<button>
+				<button className={styles.titles__btn}>
 					<a href="#">Learn More</a>
 				</button>
 			</div>

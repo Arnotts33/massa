@@ -64,6 +64,9 @@
 	cursor: pointer;
 	font-family: var(--ff-lato-sans);
 	font-size: clamp(1.5rem, 3.5vw, 3rem);
+	background-color: transparent;
+	text-transform: uppercase;
+	padding: 16px 32px;
 }
 
 @media (max-width: 920px) {
