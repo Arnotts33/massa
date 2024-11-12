@@ -1,5 +1,5 @@
 import styles from "./Food.module.css";
-import menu from "../../../data";
+import { menu } from "../../../data";
 
 function Food() {
 	return (

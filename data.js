@@ -25,4 +25,19 @@ const menu = [
 	},
 ];
 
-export default menu;
+const drinks = [
+	{
+		name: "Soda",
+		price: 1.5,
+	},
+	{
+		name: "Beer",
+		price: 2.5,
+	},
+	{
+		name: "Wine",
+		price: 2.5,
+	},
+];
+
+export { menu, drinks };

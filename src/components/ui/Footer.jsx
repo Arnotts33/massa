@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styles from "./Footer.module.css";
 
 function Footer() {
@@ -26,13 +27,13 @@ function Footer() {
 				<div className={styles.footer__menu}>
 					<ul>
 						<li>
-							<a href="#">About</a>
+							<NavLink to="/story">About</NavLink>
 						</li>
 						<li>
-							<a href="#">Menu</a>
+							<NavLink to="/menu">Menu</NavLink>
 						</li>
 						<li>
-							<a href="#">Contact</a>
+							<NavLink to="/contact">Contact</NavLink>
 						</li>
 					</ul>
 				</div>

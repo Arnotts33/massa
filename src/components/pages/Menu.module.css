@@ -21,11 +21,11 @@
 }
 
 .small_title {
-	font-size: clamp(2rem, 8vw, 7.5rem);
+	font-size: clamp(2.5rem, 11vw, 7.5rem);
 }
 
 .big_title {
-	font-size: clamp(2rem, 18vw, 18rem);
+	font-size: clamp(4rem, 24vw, 16rem);
 }
 
 .menuMain__title p {
@@ -59,8 +59,4 @@
 .menu_selection__section .active {
 	background-color: var(--primary-color);
 	color: white;
-}
-
-.menu__section {
-	min-height: 100vh;
 }

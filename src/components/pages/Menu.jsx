@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Drinks from "../ui/Drinks";
 import Food from "../ui/Food";
 import Footer from "../ui/Footer";
@@ -6,11 +6,15 @@ import Navbar from "../ui/Navbar";
 import styles from "./Menu.module.css";
 
 function Menu() {
+	const foodButtonRef = useRef(null);
+	const drinksButtonRef = useRef(null);
+
 	const [isFoodMenuToggle, setIsFoodMenuToggle] = useState(true);
 	const [isDrinksMenuToggle, setIsDrinksMenuToggle] = useState(false);
 
-	const foodButtonRef = useRef(null);
-	const drinksButtonRef = useRef(null);
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 
 	const handleFoodMenuToggle = () => {
 		setIsFoodMenuToggle(true);

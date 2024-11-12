@@ -1,8 +1,12 @@
+import { useEffect } from "react";
 import Footer from "../ui/Footer";
 import Navbar from "../ui/Navbar";
 import styles from "./Story.module.css";
 
 function Story() {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	return (
 		<>
 			<Navbar />

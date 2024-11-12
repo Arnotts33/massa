@@ -1,8 +1,13 @@
+import { useEffect } from "react";
 import Footer from "../ui/Footer";
 import Navbar from "../ui/Navbar";
 import styles from "./Contact.module.css";
 
 function Contact() {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
 	return (
 		<>
 			<Navbar />

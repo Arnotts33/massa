@@ -1,6 +1,6 @@
 .food_menu__container {
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
 	justify-content: center;
 	margin-top: 5rem;
 }
@@ -18,7 +18,7 @@
 	color: var(--primary-color);
 	font-weight: 700;
 	text-transform: uppercase;
-	font-size: clamp(2rem, 8vw, 7.5rem);
+	font-size: clamp(2.5rem, 8vw, 7.5rem);
 }
 
 .menu_title p {
@@ -29,7 +29,7 @@
 }
 
 .menu {
-	margin-top: 5rem;
+	margin-top: 4rem;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 5rem;
@@ -63,5 +63,6 @@
 @media screen and (max-width: 540px) {
 	.menu {
 		grid-template-columns: 1fr;
+		margin-top: 2rem;
 	}
 }
