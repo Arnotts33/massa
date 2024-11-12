@@ -1,5 +1,5 @@
-import Footer from "../Footer";
-import Navbar from "../Navbar";
+import Footer from "../ui/Footer";
+import Navbar from "../ui/Navbar";
 import styles from "./Story.module.css";
 
 function Story() {

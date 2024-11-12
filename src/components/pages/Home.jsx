@@ -1,8 +1,8 @@
-import Footer from "../Footer";
-import Hero from "../Hero";
-import ImageCarousel from "../ImageCarousel";
-import MassaStory from "../MassaStory";
-import Navbar from "../Navbar";
+import Footer from "../ui/Footer";
+import Hero from "../ui/Hero";
+import ImageCarousel from "../ui/ImageCarousel";
+import MassaStory from "../ui/MassaStory";
+import Navbar from "../ui/Navbar";
 
 function Home() {
 	return (
