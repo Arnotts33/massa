@@ -1,11 +1,8 @@
 .menuMain {
 	margin-top: 5rem;
-	height: 50vw;
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center; */
 	align-items: center;
-	min-height: 100vh;
 }
 
 .menuMain__title {
@@ -62,4 +59,8 @@
 .menu_selection__section .active {
 	background-color: var(--primary-color);
 	color: white;
+}
+
+.menu__section {
+	min-height: 100vh;
 }

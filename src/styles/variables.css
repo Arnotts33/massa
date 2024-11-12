@@ -9,6 +9,7 @@
 	--ff-lato-sans: "Lato", sans-serif;
 	--ff-yanone-sans: "Yanone Kaffeesatz", sans-serif;
 
-	--primary-color: #09583e;
+	--primary-color: hsl(160, 81%, 19%);
+	--primary-color-light: hsl(160, 81%, 34%);
 	--secondary-color: hsl(26, 43%, 32%);
 }

@@ -1,3 +1,5 @@
+import Drinks from "../ui/Drinks";
+import Food from "../ui/Food";
 import Footer from "../ui/Footer";
 import Navbar from "../ui/Navbar";
 import styles from "./Menu.module.css";
@@ -24,7 +26,8 @@ function Menu() {
 					</div>
 				</section>
 				<section className={styles.menu__section}>
-					<h2>Menus</h2>
+					<Food />
+					{/* <Drinks /> */}
 				</section>
 			</main>
 			<Footer />
