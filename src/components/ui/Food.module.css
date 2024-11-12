@@ -38,21 +38,17 @@
 
 .menu_item_header {
 	display: flex;
-	justify-content: space-between;
+	align-items: flex-end;
+	gap: 2rem;
 }
 
-.menu_item_header h2 {
+.menu_item_header h2,
+.menu_item_header p {
 	font-family: var(--ff-lato-sans);
 	color: var(--primary-color);
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: clamp(1.5rem, 3vw, 2rem);
-}
-
-.menu_item_header p {
-	font-family: var(--ff-lato-sans);
-	color: var(--primary-color);
-	font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
 .menu_item_body {
