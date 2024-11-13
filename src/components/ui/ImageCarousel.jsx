@@ -22,7 +22,7 @@ function ImageCarousel() {
 			<Swiper
 				modules={[Navigation, Autoplay, EffectCoverflow]}
 				grabCursor={true}
-				lazy={true}
+				lazy="true"
 				spaceBetween={40}
 				slidesPerView={2}
 				centeredSlides={true}

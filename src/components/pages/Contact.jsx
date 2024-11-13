@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Footer from "../ui/Footer";
 import Navbar from "../ui/Navbar";
 import styles from "./Contact.module.css";
+import Form from "../ui/Form";
 
 function Contact() {
 	useEffect(() => {
@@ -11,14 +12,19 @@ function Contact() {
 	return (
 		<>
 			<Navbar />
-			<div className={styles.contactSection}>
-				<h1>En Construction</h1>
-				<img
-					loading="lazy"
-					src="/images/avatar-heart.svg"
-					alt="avatar"
-				/>
-			</div>
+			<main className={styles.contactMain}>
+				<section className={styles.contactMain_title}>
+					<h1 className={styles.small_title}>Get in Touch</h1>
+					<h1 className={styles.big_title}>Contact Us</h1>
+					<p>
+						We are here to help and answer any question you might
+						have. We look forward to hearing from you.
+					</p>
+				</section>
+				<section className={styles.contact_form__section}>
+					<Form />
+				</section>
+			</main>
 			<Footer />
 		</>
 	);
