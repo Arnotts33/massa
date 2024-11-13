@@ -13,7 +13,7 @@ function Contact() {
 		<>
 			<Navbar />
 			<main className={styles.contactMain}>
-				<section className={styles.contactMain_title}>
+				<section className={styles.contactMain__title}>
 					<h1 className={styles.small_title}>Get in Touch</h1>
 					<h1 className={styles.big_title}>Contact Us</h1>
 					<p>

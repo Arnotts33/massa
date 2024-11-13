@@ -29,7 +29,9 @@ function Form() {
 						required
 					></textarea>
 				</div>
-				<button className={styles.form__button}>Send Message</button>
+				<div className={styles.form_button__container}>
+					<button className={styles.form_button}>Send Message</button>
+				</div>
 			</form>
 		</>
 	);
